@@ -5,7 +5,9 @@ author        = "Fillipe Meireles"
 description   = "nfuzz"
 license       = "MIT"
 srcDir        = "src"
+binDir        = "build"
 bin           = @["nfuzz"]
+
 
 
 # Dependencies

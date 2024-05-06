@@ -1,5 +1,6 @@
 SSL=-d:ssl
-build:
-	nimble build --verbose $(SSL) -o build/
+
+build-nfuzz:
+	nimble build --verbose $(SSL)
 test:
 	nimble test $(SSL)
